@@ -16,20 +16,20 @@ let sumNum = document.getElementById("sum-el")
 
 function addNum(){
     let sumEl = num1 + num2
-    sumNum.textContent = "Sum: " + sumEl
+    sumNum.textContent = "Result: " + sumEl
 }
 
 function subtractNum(){
     let sumEl = num1 - num2
-    sumNum.textContent = "Sum: " + sumEl
+    sumNum.textContent = "Result: " + sumEl
 }
 
 function multiplyNum(){
     let sumEl = num1 * num2
-    sumNum.textContent = "Sum: " + sumEl
+    sumNum.textContent = "Result: " + sumEl
 }
 
 function divideNum(){
     let sumEl = num1 / num2
-    sumNum.textContent = "Sum: " + sumEl
+    sumNum.textContent = "Result: " + sumEl
 }
